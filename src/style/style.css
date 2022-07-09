@@ -1,0 +1,148 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: black;
+    background-image: url('../assets/back.jpg');
+    background-size: cover;
+}
+span{
+    color: black;
+}
+.players{
+    display: flex;
+    font-weight: bolder;
+    font-size: 2rem;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    align-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+}
+.players div{
+    display: flex;
+    border: 3px solid;
+
+    border:1rem solid;
+    align-items:center;
+    justify-content: center;
+
+}
+button{
+    border: 0.5rem solid;
+    padding: 10px;
+    color:black;
+    border-color: gold;
+    font-weight:900;
+    border-radius: 50%;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+#placar1{
+    border: 5px solid;
+    width:10%;
+    height:10%;
+    background-color: white;
+    font-size: 5rem;
+    
+}
+#placar2{
+    border: 5px solid;
+    width:10%;
+    height:10%;
+    background-color: white;
+    font-size: 5rem;
+}
+    
+#player1{
+    width:100%;
+    height:100%;
+    border: 20px solid;
+    background-image: url('../assets/player1.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:chocolate;
+}
+#player1::after{
+
+    font-size: 2rem;
+    width:2rem;
+    height:2rem;
+}
+#player2{
+    width:100%;
+    height:100%;
+    border: 20px solid;
+    background-image: url('../assets/player2.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:azure;
+
+}
+#player2::after{
+
+    width:2rem;
+    height:2rem;
+}
+.game{
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:89vh;
+}
+.titulo{
+    text-align:center;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 1.7rem;    
+    background-color:black;
+    color: gold;
+    border:3rem dashed;
+    width: 60%;
+}
+.tituto font{
+    color: black;
+
+}
+
+.quadrado{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border:1px solid;
+    width:60%;
+    height:80%;
+    border-color: azure;
+    text-align: center;
+    border:3rem dashed;
+}
+.quadrado div{
+    display:flex;
+    width:30%;
+    height:30%;
+    border:5px dashed;
+    justify-content:center;
+    align-items: center;
+}
+footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:azure;
+    background-color:black;
+    width:100%;
+    height:10vh;
+    text-align:center;
+}
